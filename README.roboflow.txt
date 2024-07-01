@@ -1,8 +1,8 @@
 
-red apple - v2 2024-07-01 3:40am
+red apple - v3 2024-07-01 5:43am
 ==============================
 
-This dataset was exported via roboflow.com on July 1, 2024 at 3:40 AM GMT
+This dataset was exported via roboflow.com on July 1, 2024 at 5:43 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -22,7 +22,7 @@ Apples-ofAH are annotated in Pascal VOC format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
-* Resize to 640x480 (Fit within)
+* Resize to 640x480 (Fit (white edges))
 
 The following augmentation was applied to create 3 versions of each source image:
 * Random brigthness adjustment of between -10 and +10 percent
